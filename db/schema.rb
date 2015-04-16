@@ -26,7 +26,7 @@ ActiveRecord::Schema.define(version: 20150416062905) do
     t.string   "name"
     t.string   "email"
     t.text     "address"
-    t.text     "telephone"
+    t.string   "telephone"
     t.string   "card_token"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
